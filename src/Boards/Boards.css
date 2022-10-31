@@ -1,0 +1,20 @@
+.Boards {
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.Board {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #282c34;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Symbol {
+    color: black;
+}
